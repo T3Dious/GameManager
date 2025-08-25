@@ -5,7 +5,7 @@ public class Items : ScriptableObject
 {
     public string itemName; // Name of the item
     public string description; // Description of the item
-    public Sprite icon; // Icon representing the item
+    public GameObject icon; // Icon representing the item
     public int maxStackSize = 99; // Maximum stack size for the item
     public bool isConsumable; // Indicates if the item is consumable
     public bool isEquippable; // Indicates if the item is equippable
